@@ -46,17 +46,8 @@ $ cd proof-life
 # Instale as dependências
 $ yarn install
 
-# Se for rodar no iOS, execute:
-$ cd ios && pod install && cd ..
-
-# Crie o arquivo .env com base no modelo .env.example e preencha suas informações corretamente.
-$ cp .env.example .env
-
 # Execute a aplicação Android
 $ react-native run-android
-
-## Execute a aplicação iOS
-$ react-native run-ios
 ```
 
 ---
